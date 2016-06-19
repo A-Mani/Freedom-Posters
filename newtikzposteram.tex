@@ -1,0 +1,158 @@
+%\documentclass[12pt, a2paper, portrait, margin=0mm, innermargin=6mm, blockverticalspace=6mm, colspace=6mm, subcolspace=3mm]{tikzposter}
+%\documentclass{tikzposter}
+\documentclass[17pt, a1paper, portrait, margin=0mm, innermargin=15mm, blockverticalspace=9mm, colspace=3mm, subcolspace=3mm]{tikzposter}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{wrapfig}
+\definecolor{mymaroon}{HTML}{8A034D}
+\definecolor{myred}{HTML}{F8064F}
+\definecolor{mylp}{HTML}{FFD5F1}
+\definecolor{mydark}{HTML}{1B0107}
+
+  \definecolorstyle{myColorStyle}{
+  \colorlet{colorOne}{mydark}
+ \colorlet{colorTwo}{mymaroon}
+  \colorlet{colorThree}{myred}
+  \colorlet{colorFour}{mylp}
+  }{
+ % Background Colors
+\colorlet{backgroundcolor}{colorFour!50}
+ \colorlet{framecolor}{colorTwo!50}
+% Title Colors
+ \colorlet{titlefgcolor}{colorFour}
+ \colorlet{titlebgcolor}{colorOne}
+ % Block Colors
+ \colorlet{blocktitlebgcolor}{colorThree!50}
+ \colorlet{blocktitlefgcolor}{colorThree}
+ \colorlet{blockbodybgcolor}{colorFour!50}
+ \colorlet{blockbodyfgcolor}{colorOne}
+ % Innerblock Colors
+ \colorlet{innerblocktitlebgcolor}{colorThree!36}
+ \colorlet{innerblocktitlefgcolor}{colorOne}
+ \colorlet{innerblockbodybgcolor}{colorFour}
+ \colorlet{innerblockbodyfgcolor}{colorOne}
+ % Note colors
+} 
+ 
+ \usecolorstyle{myColorStyle}
+ \usetitlestyle{Wave}
+\useblockstyle{Corner}
+ %\usepackage{itemize}
+\title{WWFS-FWD'2016: Two-Day Workshop on Women in Free Software} \author{} \institute{CALL FOR PARTICIPATION}
+%\usetheme{Autumn}
+%\usecolorstyle{Denmark}
+%\usetitlestyle{Wave}
+
+
+\begin{document}
+\maketitle
+
+\begin{columns} \column{0.5}
+\block{Introduction}{
+\vspace{20pt}
+
+The aim of WWFS-FWD'2016 is to encourage the participation of women in free software (FLOSS) projects in various capacities, to empower them, to deliberate on related gender issues and  introduce cutting edge free software. Fedora Women's Day celebrations will be part of the workshop on the first day of the workshop.} 
+
+\block{Organizations Involved}{The two day workshop is organized by 
+\begin{itemize}
+ \item{Ubuntu Women Project,}
+ \item{Fedora Project (Fedora Women) and}
+ \item{Netaji Subhash Engg, College, Kolkata}
+\end{itemize}}
+\block{When and Where?}{ 
+\begin{itemize}
+ \item{On 15th and 16th of July'2016}
+ \item{Time: 11:00 to 17:00 hrs.}
+ \item{Venue: Netaji Subhash Engg College\\
+   Garia, Kolkata}
+\end{itemize}}
+
+\block{Organizers}{
+\vspace{20pt}
+
+\innerblock{Workshop Chairwoman}{
+
+\hspace{9pt} \textbullet \hspace{9pt}A Mani}
+\innerblock{Organizing Committee}
+{\begin{itemize}
+  \item {A Mani}
+  \item {Rebeka Mukherjee}
+ \end{itemize}}
+}
+
+\block{What will Participants Gain?}{
+Partcipants would be able to
+\begin{itemize}
+ \item {use new free software, understand FLOSS development environments and opportunities,}
+ \item {specifically be able to contribute to Fedora and Ubuntu development without any apprehensions}
+ \item {create inclusive workspaces,}
+ \item {set discriminatory and sexist workspaces in order and}
+ \item {navigate their future workspaces in a seamless way.}
+\end{itemize}}
+\column{0.50}
+\block{Speakers and Topics}{
+\vspace{20pt}
+
+\begin{tabular}{lll}
+ \toprule
+\textbf{Name} & \textbf{Affiliation} & \textbf{Topic}\\ 
+\toprule
+A Mani & Calcutta University & Free Software, Women and Feminism\\
+      & Ubuntu Women  &  GNU/Linux - a Functional View\\
+ & Fedora Project  & LaTeX for Publishing\\
+\midrule 
+Priyanka Nag & Red Hat, Pune & Imposter Syndrome \\
+             &         & How to Contribute to FLOSS? \\
+\midrule
+Rebeka Mukherjee & NSEC, Kolkata & Python Scripting \\
+\midrule
+Swapna Agarwal & I.S.I, Kolkata & GNU/Octave for ML\\
+\midrule
+Trupti Kini &  IIT Mumbai & Drupal Basics \\
+\midrule
+Priyanka Sinha & TCS, Kolkata &    \\
+\midrule
+Gunjan Gautam & ISM, Dhanbad & GIMP and Scripting\\             
+\bottomrule
+\end{tabular}}
+
+\block{Participation}{
+\vspace{20pt}
+
+Only women with some interest in free software/computers or applied human rights may please send their details (name, address, affiliation, occupation, FOSS experience, age ) in a email with subject \emph{WWFS Participation} to \texttt{wwfs.fwd@gmail.com}. Queer women are encouraged to apply. Seats are limited, so please hurry! 
+\innerblock{Participation Fee}{A nominal fee of Rs. 300 only will be charged to cover food costs.}
+\innerblock{Certificates}{Certificate of participation will be provided to all participants.}}
+\block{Related Resources}{
+\begin{itemize}
+ \item{Free Software Philosophy: \url{http://www.gnu.org}.}
+ \item{Fedora Page:\url{https://fedoraproject.org/wiki/WWFS-FWD'2016}.}
+ \item{Ubuntu Women Wiki:\url{http://wiki.ubuntu-women.org}. }
+ \item{Geek Feminism Wikia: \url{http://geekfeminism.wikia.com}.}
+ \item{AdaCamp Toolkit:\url{http://adacamp.org}.}
+\end{itemize}}
+\block{Freedom Matters}{ 
+\begin{itemize}
+ \item {\textsf{\large{ Software is a form of Knowledge and Knowledge Ought to be Free!}}}
+ \item {\textsf{\large{Education with freedom is the means to rise above the limitations that a prejudiced society has endeavored to place upon us!}}}
+\end{itemize}
+\hrulefill
+
+%\begin{wrapfigure}[12]{l}{0.6\linewidth}
+
+\begin{tikzfigure}
+\includegraphics{newlog.jpeg}
+\end{tikzfigure}
+%\end{wrapfigure}
+}
+\end{columns}
+\end{document}
+
+
+
+
+
